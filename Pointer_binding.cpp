@@ -3,7 +3,7 @@ using namespace std;
 class Base
 {
       public:
-      void Show()
+       void Show()
       {
             cout<<"In Base Class"<<endl;
       }
