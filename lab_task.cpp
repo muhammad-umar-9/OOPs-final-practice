@@ -90,10 +90,10 @@ public:
 int main() 
 {
 
-        Dog d1("Buddy", 3);
-         Cat c1("Whis1kers", 2);
-        Bird b1("Tweety", 1);
-        Animal *a1 , *a2 , *a3;
+      Dog d1("Buddy", 3);
+      Cat c1("Whis1kers", 2);
+      Bird b1("Tweety", 1);
+      Animal *a1 , *a2 , *a3;
         a1 = &d1;
         a2 = & c1;
         a3 = &b1;
@@ -101,6 +101,7 @@ cout <<"animal sounds"<<endl;
    a1->makeSound();
    a2->makeSound();
    a3->makeSound();
+   
    cout <<"----------------"<<endl;
    cout <<"information"<<endl;
    a1->displayInfo();
